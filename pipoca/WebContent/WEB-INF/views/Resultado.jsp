@@ -7,6 +7,6 @@
 <title>Insert title here</title>
 </head>
 <body>
- <h2>${filme.nome}</h2>
+ <h2>${filme.titulo}</h2>
 </body>
 </html>

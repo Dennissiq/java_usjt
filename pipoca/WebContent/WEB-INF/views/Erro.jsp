@@ -4,9 +4,9 @@
 <html>
 <head>
 <meta charset="ISO-8859-1">
-<title>Hello</title>
+<title>Erro</title>
 </head>
 <body>
-	<h1> Olá, USJT!</h1>
+	<h1> ${erro}</h1>
 </body>
 </html>
