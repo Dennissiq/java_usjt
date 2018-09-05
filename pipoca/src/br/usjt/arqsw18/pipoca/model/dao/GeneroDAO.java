@@ -52,6 +52,7 @@ public class GeneroDAO {
 			e.printStackTrace();
 			throw new IOException(e);
 		}
+		System.out.println(generos.size());
 		return generos;
 	}
 }

@@ -39,7 +39,7 @@ public class ManterFilmesController {
 	@RequestMapping("/novo")
 	public String novoFilme(Model model) {
 		try {
-			
+			generoService = new GeneroService();
 			ArrayList<Genero> generos = generoService.listarGeneros();
 			model.addAttribute("generos", generos);
 		} catch (IOException e) {
