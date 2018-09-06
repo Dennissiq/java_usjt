@@ -9,7 +9,7 @@
 <body>
 	<form action="inserir" method="post">
 		<input type="text" name="nome">
-		<input type="submit">
+		<input type="submit"> 
 	</form>
 </body>
 </html>
